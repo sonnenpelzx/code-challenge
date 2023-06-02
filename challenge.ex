@@ -5,6 +5,9 @@ defmodule Challenge do
   def test2() do
     [[1,1], [1,1]]
   end
+  def test3() do
+    [[1,0,0,1],[1,0,1,0],[1,0,0,0]]
+  end
   def getHitProbability(field) do
     getHitProbability(field, 0, 0)
   end
